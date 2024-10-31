@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735344118479",
+    "project_id": "restaurant-lcd",
+    "storage_bucket": "restaurant-lcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735344118479:android:a221341cd8456113cdc5ba",
+        "android_client_info": {
+          "package_name": "com.mhjcode.restaurant_lcd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKv13-bY2K7r1SnTcv-RODvmWKq6VWetE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

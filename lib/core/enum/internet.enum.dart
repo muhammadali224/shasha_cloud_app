@@ -1,0 +1,4 @@
+enum ConnectivityEnum {
+  connected,
+  disconnected,
+}

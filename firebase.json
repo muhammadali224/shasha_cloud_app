@@ -1,0 +1,32 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "restaurant-lcd",
+          "appId": "1:735344118479:android:a221341cd8456113cdc5ba",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "restaurant-lcd",
+          "configurations": {
+            "android": "1:735344118479:android:a221341cd8456113cdc5ba"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": "hosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  }
+}
