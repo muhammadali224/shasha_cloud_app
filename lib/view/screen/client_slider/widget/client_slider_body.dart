@@ -32,29 +32,10 @@ class ClientSliderBody extends StatelessWidget {
               DeviceOrientation.landscapeLeft,
             ]);
           });
-          // context
-          //     .read<ScreenCubit>()
-          //     .autoPlay =
-          // (!state.mediaModel.any((e) => e.type == AppStrings.video));
-          // // context.read<ScreenCubit>().startPlayer(state.mediaModel);
         }
       },
       builder: (context, state) {
         if (state is ScreenMediaSuccess) {
-          // context.read<ScreenCubit>().autoPlay =
-          //     (!state.mediaModel.any((e) => e.type == AppStrings.video));
-
-          // WakelockPlus.enable();
-
-          // SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
-          //     overlays: []);
-          // WidgetsBinding.instance.addPostFrameCallback((_) async {
-          //   await SystemChrome.setPreferredOrientations([
-          //     DeviceOrientation.landscapeRight,
-          //     DeviceOrientation.landscapeLeft,
-          //   ]);
-          // });
-
           return state.mediaModel.isNotEmpty
               ? FlutterCarousel(
                   items: state.mediaModel
@@ -99,28 +80,6 @@ class ClientSliderBody extends StatelessWidget {
                     style: AppTextStyle.style26B.copyWith(color: Colors.white),
                   ),
                 );
-          // if (state.media.type == AppStrings.image) {
-          //   return
-          //   CacheNetworkImagePlus(
-          //     imageUrl: state.media.url,
-          //     boxFit: BoxFit.fill,
-          //     height: double.infinity,
-          //     width: double.infinity,
-          //   );
-          // } else if (state.media.type == AppStrings.video) {
-          //   return ReelsViewVideo(url: state.media.url);
-          // } else {
-          //   return const Center(
-          //       child: Column(
-          //     children: [
-          //       Icon(
-          //         Icons.error,
-          //         color: Colors.red,
-          //       ),
-          //       Text('Unsupported type'),
-          //     ],
-          //   ));
-          // }
         }
         return Container();
       },
